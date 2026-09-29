@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Aaron Samuels</title>
+    <div class="divisionheading">
+        <h2 id="topheading" style="text-align:center;">University of Technology Jamaica</h2>
+    </div>
+    <style>
+        .divisionheading {
+            display: flex;
+            background-color: #568f56;
+            margin: 0 auto;
+            width: 100%;
+            line-height: 1;
+            padding: none;
+            position: fixed;
+            top: 0;
+            z-index: 2;         /* stacking order: header renders on top */
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: row;
+            width: 100%;
+            margin: auto;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+            background-color: #568f56;
+            position: fixed;
+            top: 63px;
+            z-index: 1;
+        }
+        nav {
+            margin-top: 100px;  /* roughly header height + navbar height, adjust to taste */
+        }
+        .buttons {
+            background-color: #568f56;
+            border: none;
+            width: 25%;
+        }
+        .footer {
+            color: #628462;
+        }
+        a {
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-weight: 700;
+            font-stretch: expanded;
+            display: inline-block;
+            width: auto;
+        }
+        a:link {
+            color: white;
+        }
+        a:visited {
+            color: white;
+        }
+        a:hover {
+            color: white;
+        }
+        .buttons:hover {
+            background-color: #70a970;
+        }
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .aboutmediv {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            width: 80%;
+            margin: auto;
+            font-family: Arial, sans-serif;
+            font-weight: 200;
+        }
+
+        .aboutmename,
+        .aboutmeprogramme,
+        .aboutmeyear,
+        .aboutmebio {
+            font-family: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #9fc69f;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+
+        .aboutmeheadings {
+            margin: 0 0 10px 0;
+        }
+
+        .aboutmeinfo {
+            text-align: center;
+        }
+        .selfimgcont {
+            margin: auto;
+            padding: 20px;
+        }
+    </style>
+    </head>
+    <body bgcolor="#cfe2cf">
+        <nav align="center">
+        <div  class="navbar">
+            <a href="../Assignment.html.htm" target="_self" class="buttons">Home</a>
+            <a href="About.htm" target="_self" class="buttons">About</a>
+            <a href="Courses.html.htm" target=_self class="buttons">Courses</a>
+            <a href="Contact.htm" target=_self class="buttons">Contact</a>
+        </div>
+        </nav>
+
+        <div class="aboutmediv">
+            <div class="aboutmename">
+                <h4 class="aboutmeheadings">Student Name</h4>
+                <div class="aboutmeinfo"><p>Aaron Samuels</p></div>
+            </div>
+            <div class="aboutmeprogramme">
+                <h4 class="aboutmeheadings">Programme</h4>
+                <div class="aboutmeinfo"><p>BSc in Computing</p></div>
+            </div>
+            <div class="aboutmeyear">
+                <h4 class="aboutmeheadings">Year</h4>
+                <div class="aboutmeinfo"><p>Year 3</p></div>
+            </div>
+            <div class="aboutmebio">
+                <h4 class="aboutmeheadings">Short Biography</h4>
+                <div class="aboutmeinfo"><p style="font-size:75%; font-weight: 525">I am a mild mannered person; I don't take kindly to disrespect, but I never show it. I prefer to observe than to speak, and I only ever share my observations when asked. I am a quick learner, and my conflict resolution skills are noteworthy if nothing.</p></div>
+            </div>
+        </div>
+        <div class="selfimgcont" align="center">
+            <img src="../Images/Headerimg.jpg" height="20%" width="20%" alt="Image Not Found"/>
+        </div>
+        <div class="footer" align="center">
+        <p>Aaron Samuels <br>Copyright 2026 by Aaron Samuels. All Rights Reserved.</br></p>
+        </div>
+    </body>
+</html>

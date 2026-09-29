@@ -1,0 +1,231 @@
+@font-face {
+    font-family: SanFran;
+    src: url('Assets/Fonts/sf-pro-display/SFPRODISPLAYREGULAR.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: SeravekReg;
+    src: url('Assets/Fonts/seravek/seravek-basic-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: SeravekBold;
+    src: url('Assets/Fonts/seravek/9599-Seravek Basic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: bold;
+}
+.favicon {
+}
+body {
+    font-family: 'SeravekBold', sans-serif;
+}
+.mainpage {
+    background-color: #2F3036;
+    color: white;
+}
+#Copyright {
+    background-color: inherit;
+    text-align: center;
+    font-family: 'SeravekReg', sans-serif;
+    letter-spacing: 2px;
+
+}
+.pagehead {
+    display: flex;
+    top: 0px;
+    position: fixed;
+    background-color: rgba(44, 45, 50, 0.50);
+    width: auto;
+    border-radius: 5px 5px 5px 5px;
+    white-space: nowrap;
+}
+#tophead {
+    margin: 0;
+}
+#belowheaders {
+    padding-top: 100px;
+}
+.navbar {
+    top: 30px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgba(44, 45, 50, 0.50);
+    border: 1px solid #444547;
+    border-radius: 5px 5px 5px 5px;
+    overflow: auto;
+    height: 4%;
+    white-space: nowrap;
+    scrollbar-width: none;
+    flex-shrink: 0;
+}
+#logodiv {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: auto;
+    height: auto;
+    gap: 0px;
+}
+#imagecont {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+#logo {
+    width: 30px;
+    height: 30px;
+}
+.navitems {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.nodecoanchor {
+    text-decoration: none;
+    color: white;
+    border: none;
+    width: 25%;
+    height: 100%;
+    align-content: center;
+}
+.nodecoanchor:visited, .nodecoanchor:link {
+    color: white;
+}
+.nodecoanchor:hover {
+    background-color: #414248;
+}
+.nodecoanchoract {
+    text-decoration: none;
+    color: white;
+    border: none;
+    width: 25%;
+    height: 100%;
+    align-content: center;
+    background-color: rgba(67, 68, 74, 0.5);
+}
+.nodecoanchoract:visited, .nodecoanchoract:link {
+    color: white;
+}
+.topictitle {
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: #D46908FF;
+    cursor: help;
+}
+.topictitle:link, .topictitle:visited {
+    color: white;
+}
+.topictitle:hover {
+    color: #D46908FF;
+}
+hr.pgbreak {
+    color: #D46908FF;
+    width: 70%;
+}
+div.pgbreak {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 100%;
+}
+#divtopictitle {
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    text-align: center !important;
+}
+#thoughtsnote {
+    text-align: center;
+}
+#thoughtsnote a {
+    text-decoration: underline;
+}
+#thoughtsnote a:link, #thoughtsnote a:visited {
+    color: white;
+}
+#selfimg {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+#selfimag {
+    width: 100%;
+    height: 100%;
+}
+#imagegrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 99%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.imageingrid {
+    width:750px;
+    height: 500px;
+    border: 2px solid #444547;
+    border-radius: 15px 15px 15px 15px;
+}
+.pgwpara {
+    width: 70%;
+    margin: 0 auto;
+}
+.paraflex {
+    display: flex;
+    background-color: #353748;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid #444547;
+    width: 95%;
+    margin: 0 auto;
+}
+.paragraphsml {
+    margin: 0px 15px 15px 0px;
+    font-family: 'SeravekReg', sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+}
+#unorderedlistnodeco {
+    list-style-type: none;
+}
+li.listitems {
+    font-family: 'SeravekReg', sans-serif;
+    font-weight: 600;
+    color: #DC6B05;
+    font-style: italic;
+}
+#proflex{
+    display: flex;
+    margin: auto;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.proitemdiv {
+}
+.proiframe {
+    width: 900px;
+    height: 550px;
+    border-radius: 15px 15px 15px 15px;
+    border: 2px solid #444547;
+}
