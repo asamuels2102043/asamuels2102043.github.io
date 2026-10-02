@@ -222,12 +222,13 @@ li.listitems {
     justify-content: center;
 }
 .proitemdiv {
-    width: 350px;
+    width: auto;
     height: 550px;
+    gap: 15px;
 }
 .proiframe {
-    width: 350px;
-    height: 550px;
+    width: inherit;
+    height: inherit;
     border-radius: 15px 15px 15px 15px;
     border: 2px solid #444547;
 }
