@@ -222,6 +222,8 @@ li.listitems {
     justify-content: center;
 }
 .proitemdiv {
+    width: 350px;
+    height: 550px;
 }
 .proiframe {
     width: 350px;
