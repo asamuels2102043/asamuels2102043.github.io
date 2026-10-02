@@ -88,14 +88,17 @@ body {
     min-width: 100%;
     justify-content: space-around;
     text-align: center;
-    align-items: center;
+    align-items: stretch;
 }
 .nodecoanchor {
     text-decoration: none;
     color: white;
     border: none;
-    flex: 0 0 auto;
-    padding: 6px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 14px;
+    flex: 1 0 auto;
 }
 .nodecoanchor:visited, .nodecoanchor:link {
     color: white;
@@ -103,13 +106,7 @@ body {
 .nodecoanchor:hover {
     background-color: #414248;
 }
-.nodecoanchoract {
-    text-decoration: none;
-    color: white;
-    border: none;
-    width: 25%;
-    height: 100%;
-    align-content: center;
+.nodecoanchor:active {
     background-color: rgba(67, 68, 74, 0.5);
 }
 .nodecoanchoract:visited, .nodecoanchoract:link {
